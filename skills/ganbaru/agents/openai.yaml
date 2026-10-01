@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ganbaru"
+  short_description: "Choose a method and build a practical goal plan"
+  default_prompt: "Use $ganbaru to help me choose a methodology and create a goal plan."

@@ -1,0 +1,138 @@
+{
+  "smart": {
+    "title": "SMART goal canvas",
+    "blocks": [
+      {"type": "section", "title": "S - Specific", "fields": [["Defined outcome", "method_answers.specific"], ["Final goal statement", "plan.goal"]]},
+      {"type": "section", "title": "M - Measurable", "fields": [["Progress measures", "method_answers.measurable"], ["Success criteria", "plan.success"]]},
+      {"type": "section", "title": "A - Achievable", "fields": [["Feasibility", "method_answers.achievable"], ["Resources and support", "plan.support"], ["Obstacles and responses", "plan.obstacles"]]},
+      {"type": "section", "title": "R - Relevant", "fields": [["Relevance", "method_answers.relevant"], ["Personal motivation", "plan.why"]]},
+      {"type": "section", "title": "T - Time-bound", "fields": [["Timeframe", "method_answers.time_bound"], ["Milestones", "plan.milestones"]]},
+      {"type": "checklist", "title": "Follow-through checklist", "source": "plan.actions"},
+      {"type": "section", "title": "When to revise the goal", "fields": [["Adjustment rule", "plan.adjustment"]]}
+    ]
+  },
+  "okr": {
+    "title": "OKR scorecard",
+    "blocks": [
+      {"type": "section", "title": "Objective", "fields": [["Objective", "method_answers.objective"], ["Agreed goal", "plan.goal"], ["Why it matters", "plan.why"]]},
+      {"type": "records", "title": "Key results", "source": "method_answers.results", "columns": ["Key result", "Baseline", "Target", "Due date"], "item": "Key result", "ask": ["What's one result you'll measure? (for example: articles published)", "Where is it today?", "Where do you want it to be?", "By when?"]},
+      {"type": "section", "title": "Definition of success", "fields": [["Overall success criteria", "plan.success"]]},
+      {"type": "records", "title": "Initiatives linked to results", "source": "method_answers.initiatives", "columns": ["Initiative", "Related key result", "Owner"], "item": "Initiative", "ask": ["What's one thing you'll do to move a key result?", "Which key result does it help?", "Who will do it? (It can be you.)"]},
+      {"type": "checklist", "title": "Scheduled execution", "source": "plan.actions"},
+      {"type": "section", "title": "Ownership and dependencies", "fields": [["Alignment", "method_answers.alignment"], ["Support", "plan.support"], ["Risks and responses", "plan.obstacles"]]},
+      {"type": "section", "title": "Cycle checkpoints", "fields": [["Milestones", "plan.milestones"], ["Check-in rhythm", "method_answers.checkins"], ["Adjustment rule", "plan.adjustment"]]},
+      {"type": "log", "title": "Future check-in log", "columns": ["Date", "Key result", "Observed value", "Decision"]}
+    ]
+  },
+  "kaizen": {
+    "title": "Kaizen improvement cycle",
+    "blocks": [
+      {"type": "section", "title": "Improvement aim", "fields": [["Goal", "plan.goal"], ["Why improve", "plan.why"]]},
+      {"type": "table", "title": "Plan - Do - Check - Act", "columns": ["Stage", "Your plan"], "rows": [["Current process", "method_answers.baseline"], ["Plan: small change", "method_answers.improvement"], ["Do: trial", "method_answers.trial"], ["Check: evidence", "plan.success"], ["Act: keep or revise", "method_answers.standard"], ["Next cycle", "method_answers.next_cycle"]]},
+      {"type": "table", "title": "Run the improvement", "columns": ["Execution detail", "Commitment"], "rows": [["Actions", "plan.actions"], ["Checkpoints", "plan.milestones"], ["Resources", "plan.support"], ["Obstacles", "plan.obstacles"], ["Adjustment trigger", "plan.adjustment"]]},
+      {"type": "log", "title": "Future improvement log", "columns": ["Date", "Change tried", "Observation", "Keep / revise"]}
+    ]
+  },
+  "gtd": {
+    "title": "GTD project and next-action lists",
+    "blocks": [
+      {"type": "section", "title": "Capture inbox", "fields": [["Captured commitments", "method_answers.capture"]]},
+      {"type": "section", "title": "Project outcome", "fields": [["Clarified outcome and next action", "method_answers.clarify"], ["Main project", "plan.goal"], ["Purpose", "plan.why"], ["Definition of done", "plan.success"]]},
+      {"type": "section", "title": "Organization system", "fields": [["Lists, calendar and reference locations", "method_answers.organize"]]},
+      {"type": "checklist", "title": "Next actions", "source": "plan.actions"},
+      {"type": "section", "title": "Calendar and project checkpoints", "fields": [["Milestones and dates", "plan.milestones"]]},
+      {"type": "section", "title": "Support and possible waiting-for items", "fields": [["Resources and dependencies", "plan.support"]]},
+      {"type": "section", "title": "Reflect and engage", "fields": [["Review practice", "method_answers.reflect"], ["Action chosen for this context", "method_answers.engage"], ["Friction and responses", "plan.obstacles"], ["System adjustments", "plan.adjustment"]]}
+    ]
+  },
+  "grow": {
+    "title": "GROW coaching plan",
+    "blocks": [
+      {"type": "section", "title": "G - Goal", "fields": [["Desired outcome", "method_answers.goal"], ["Agreed goal", "plan.goal"], ["Motivation", "plan.why"], ["Success criteria", "plan.success"]]},
+      {"type": "section", "title": "R - Reality", "fields": [["Starting situation", "method_answers.reality"], ["Support and constraints", "plan.support"], ["Obstacles", "plan.obstacles"]]},
+      {"type": "section", "title": "O - Options", "fields": [["Alternatives considered", "method_answers.options"]]},
+      {"type": "section", "title": "W - Will / way forward", "fields": [["Chosen commitment", "method_answers.will"], ["Actions", "plan.actions"], ["Milestones", "plan.milestones"], ["When to reconsider", "plan.adjustment"]]}
+    ]
+  },
+  "ikigai": {
+    "title": "Ikigai meaning and exploration journal",
+    "blocks": [
+      {"type": "section", "title": "What makes life worthwhile", "fields": [["Meaning and joy", "method_answers.meaning"], ["Values and themes", "method_answers.patterns"], ["Personal motivation", "plan.why"]]},
+      {"type": "section", "title": "A direction to make room for", "fields": [["Chosen meaningful activity", "method_answers.space"], ["Exploration goal", "plan.goal"], ["Resources and relationships", "plan.support"]]},
+      {"type": "section", "title": "A small experiment", "fields": [["Experiment", "method_answers.experiment"], ["Actions", "plan.actions"], ["Checkpoints", "plan.milestones"], ["Obstacles and responses", "plan.obstacles"]]},
+      {"type": "section", "title": "Notice what you learn", "fields": [["Evidence of fit", "plan.success"], ["Reflection practice", "method_answers.reflection"], ["Continue or change direction", "plan.adjustment"]]}
+    ]
+  },
+  "woop": {
+    "title": "WOOP wish-to-action card",
+    "blocks": [
+      {"type": "section", "title": "W - Wish", "fields": [["Wish", "method_answers.wish"], ["Chosen goal", "plan.goal"], ["Why it matters", "plan.why"]]},
+      {"type": "section", "title": "O - Outcome", "fields": [["Imagined best outcome", "method_answers.outcome"], ["Evidence of success", "plan.success"]]},
+      {"type": "section", "title": "O - Obstacle", "fields": [["Main internal obstacle", "method_answers.obstacle"]]},
+      {"type": "section", "title": "P - Plan", "fields": [["If-then response", "method_answers.plan"]]},
+      {"type": "section", "title": "Putting this WOOP into practice", "fields": [["Scheduled actions", "plan.actions"], ["Milestones", "plan.milestones"], ["External support", "plan.support"], ["Additional barriers and responses", "plan.obstacles"], ["When to refine the plan", "plan.adjustment"]]}
+    ]
+  },
+  "knowing-acting": {
+    "title": "Knowing and acting reflection cycle",
+    "blocks": [
+      {"type": "section", "title": "Understanding worth living", "fields": [["Guiding principle", "method_answers.principle"], ["Purpose", "plan.why"], ["Chosen goal", "plan.goal"]]},
+      {"type": "section", "title": "The gap between understanding and conduct", "fields": [["Concrete gap", "method_answers.gap"], ["Obstacles and responses", "plan.obstacles"]]},
+      {"type": "section", "title": "Express understanding in practice", "fields": [["Practice", "method_answers.practice"], ["Repeated actions", "plan.actions"], ["Support", "plan.support"], ["Checkpoints", "plan.milestones"]]},
+      {"type": "section", "title": "Reflect and refine", "fields": [["Reflection", "method_answers.reflect"], ["Evidence in conduct", "plan.success"], ["Adjustment rule", "plan.adjustment"]]}
+    ]
+  },
+  "wu-wei": {
+    "title": "Wu Wei conditions and appropriate-action plan",
+    "blocks": [
+      {"type": "section", "title": "What matters without excessive striving", "fields": [["Direction", "plan.goal"], ["Purpose", "plan.why"], ["Where effort feels forced", "method_answers.forcing"]]},
+      {"type": "section", "title": "Read the conditions", "fields": [["Timing and environment", "method_answers.conditions"], ["Available support", "plan.support"], ["Constraints and responses", "plan.obstacles"]]},
+      {"type": "section", "title": "Simplify", "fields": [["Demands to remove", "method_answers.simplify"]]},
+      {"type": "section", "title": "Appropriate action now", "fields": [["Chosen action", "method_answers.action"], ["Sustainable rhythm", "plan.actions"], ["Checkpoints", "plan.milestones"]]},
+      {"type": "section", "title": "Observe and reassess", "fields": [["Evidence that the approach fits", "plan.success"], ["When to change approach", "plan.adjustment"]]}
+    ]
+  },
+  "karma-yoga": {
+    "title": "Karma Yoga action and non-attachment plan",
+    "blocks": [
+      {"type": "section", "title": "Meaningful responsibility", "fields": [["Work worth doing", "method_answers.responsibility"], ["Chosen goal", "plan.goal"], ["Motivation", "plan.why"]]},
+      {"type": "section", "title": "Agency and uncertain outcomes", "fields": [["What is and is not yours to control", "method_answers.control"], ["Outcome evidence for learning", "plan.success"]]},
+      {"type": "section", "title": "Commit to careful action", "fields": [["Commitment", "method_answers.commitment"], ["Action rhythm", "plan.actions"], ["Milestones", "plan.milestones"], ["Resources", "plan.support"], ["Obstacles and responses", "plan.obstacles"]]},
+      {"type": "section", "title": "Learn without making results your identity", "fields": [["Feedback practice", "method_answers.feedback"], ["Adjustment rule", "plan.adjustment"]]}
+    ]
+  },
+  "harada": {
+    "title": "Harada goal and action map",
+    "blocks": [
+      {"type": "section", "title": "Central goal and purpose", "fields": [["Goal and benefit to self and others", "method_answers.purpose"], ["Agreed central goal", "plan.goal"], ["Motivation", "plan.why"], ["Success criteria", "plan.success"]]},
+      {"type": "section", "title": "Self-analysis", "fields": [["Strengths and development needs", "method_answers.self_analysis"], ["Support", "plan.support"], ["Obstacles and responses", "plan.obstacles"]]},
+      {"type": "records", "title": "Eight supporting areas", "source": "method_answers.eight_areas", "columns": ["Area number", "Supporting area"], "item": "Supporting area", "max_rows": 8, "ask": [null, "What skill, habit or kind of support will help you reach your central goal?"]},
+      {"type": "records", "title": "Open Window 64-inspired action map", "source": "method_answers.actions_64", "columns": ["Area number", "Action number", "Concrete action"], "note": "A readable linear action map, not a reproduced official worksheet or a 9x9 graphic. Use area numbers 1-8 and action numbers 1-8. A partial map is valid; never invent actions to fill cells.", "item": "Action", "per_area": true, "ask": [null, null, "What's one concrete thing you could do?"]},
+      {"type": "checklist", "title": "Routine checklist", "source": "method_answers.routines"},
+      {"type": "section", "title": "Practice schedule", "fields": [["Scheduled actions", "plan.actions"], ["Milestones", "plan.milestones"], ["Adjustment rule", "plan.adjustment"]]},
+      {"type": "section", "title": "Daily reflection practice", "fields": [["Journal commitment", "method_answers.journal"]]},
+      {"type": "log", "title": "Future daily journal", "columns": ["Date", "Action practiced", "Learning", "Next adjustment"]}
+    ]
+  },
+  "toyota-kata": {
+    "title": "Toyota Improvement Kata storyboard",
+    "blocks": [
+      {"type": "section", "title": "Direction and challenge", "fields": [["Challenge", "method_answers.challenge"], ["Agreed goal", "plan.goal"], ["Why this direction", "plan.why"]]},
+      {"type": "table", "title": "Current and target conditions", "columns": ["Condition", "Description"], "rows": [["Current condition: observed facts", "method_answers.current"], ["Next target condition", "method_answers.target"], ["Evidence of progress", "plan.success"], ["Checkpoint dates", "plan.milestones"]]},
+      {"type": "section", "title": "Obstacle being investigated", "fields": [["Focus obstacle", "method_answers.obstacle"], ["Other constraints and responses", "plan.obstacles"]]},
+      {"type": "records", "title": "Next experiment", "source": "method_answers.experiment", "columns": ["Test", "Prediction", "Observation to collect", "Check date"], "item": "Experiment", "ask": ["What small test will you try?", "What do you expect to happen?", "What will you watch or measure?", "When will you check the result?"]},
+      {"type": "section", "title": "Learning and coaching rhythm", "fields": [["Learning cycle", "method_answers.learning"], ["Practice schedule", "plan.actions"], ["Support or coach", "plan.support"], ["Next-experiment decision rule", "plan.adjustment"]]},
+      {"type": "log", "title": "Future experiment results", "columns": ["Date", "Test", "Actual observation", "Learning / next step"]}
+    ]
+  },
+  "hoshin-kanri": {
+    "title": "Hoshin Kanri strategy deployment matrix",
+    "blocks": [
+      {"type": "table", "title": "Strategy alignment", "columns": ["Level", "Direction or commitment"], "rows": [["Strategic direction", "method_answers.direction"], ["Breakthrough priority", "method_answers.breakthrough"], ["Cycle objective", "method_answers.annual"], ["Agreed main goal", "plan.goal"], ["Purpose", "plan.why"], ["Success measures", "plan.success"]]},
+      {"type": "section", "title": "Catchball - two-way alignment", "fields": [["Discussion and proposed contributions", "method_answers.catchball"], ["Support and dependencies", "plan.support"], ["Constraints and responses", "plan.obstacles"]]},
+      {"type": "records", "title": "Deployment matrix", "source": "method_answers.deployment", "columns": ["Initiative", "Owner", "Measure", "Due date", "Dependency"], "note": "Markdown uses a linear deployment matrix instead of an X-matrix graphic. Unknown owners, dates or relationships remain unspecified. Solo use is a Ganbaru adaptation.", "item": "Action", "ask": ["What's one action that moves you toward this year's objective?", "Who will own it? (It can be you.)", "How will you know it's working?", "When should it be done?", "Does it depend on anyone or anything? (Press Enter if not.)"]},
+      {"type": "section", "title": "Execution and review", "fields": [["Action rhythm", "plan.actions"], ["Milestones", "plan.milestones"], ["Strategy review", "method_answers.review"], ["Adjustment rule", "plan.adjustment"]]},
+      {"type": "log", "title": "Future strategy review log", "columns": ["Date", "Progress observed", "Alignment issue", "Decision"]}
+    ]
+  }
+}

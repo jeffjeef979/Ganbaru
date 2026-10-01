@@ -1,0 +1,182 @@
+[
+  {
+    "id": "smart", "name": "SMART Goals", "origin": "United States", "kind": "Goal definition", "base": 3,
+    "description": "Define a specific, measurable, achievable, relevant and time-bound goal. This uses a common modern expansion of SMART; Doran's original wording differs.",
+    "source": "https://www.decisionskills.com/uploads/5/1/6/0/5160560/doran_1981_s.m.a.r.t-way-management-review.pdf",
+    "limitation": "A well-written target still needs an execution routine, and numeric measures do not fit every aspiration.",
+    "weights": {"clarity": 5, "structure": 3, "action": 1},
+    "steps": [
+      {"key": "specific", "title": "Specific outcome", "prompt": "What exactly do you want to achieve? And what's not part of it, so it doesn't grow out of hand?"},
+      {"key": "measurable", "title": "Evidence of success", "prompt": "Where are you starting from today, and what would you see or count that tells you you're getting there?"},
+      {"key": "achievable", "title": "Feasibility", "prompt": "Looking at your time, skills and support, does this feel doable? Is there anything you'd shrink or learn first?"},
+      {"key": "relevant", "title": "Relevance", "prompt": "Why does this goal matter to you now, rather than some other time?"},
+      {"key": "time_bound", "title": "Timeframe", "prompt": "When would you like to reach it, and when is a good halfway check-in?"}
+    ]
+  },
+  {
+    "id": "okr", "name": "OKRs", "origin": "United States", "kind": "Outcome planning", "base": 2,
+    "description": "Set one meaningful objective with a few measurable key results. Separate outcomes from the initiatives you will try to produce them.",
+    "source": "https://www.whatmatters.com/okrs-explained/what-are-okrs",
+    "limitation": "Weak metrics reward activity instead of impact; this may add overhead for a simple personal goal.",
+    "weights": {"team": 5, "organization": 3, "clarity": 3, "structure": 2},
+    "steps": [
+      {"key": "objective", "title": "Objective", "prompt": "In one sentence, what meaningful change do you want to see over the next few months?"},
+      {"key": "results", "title": "Key results", "prompt": "Next, let's decide how you'll measure that. We'll go one key result at a time; two to four is plenty. Measure results, not tasks."},
+      {"key": "initiatives", "title": "Initiatives", "prompt": "Now, what will you actually do to move those numbers? We'll go one initiative at a time."},
+      {"key": "alignment", "title": "Ownership and alignment", "prompt": "Who else is involved or affected, and what could compete for your time? If it's just you, what limits do you have to work around?"},
+      {"key": "checkins", "title": "Check-in rhythm", "prompt": "How often will you check your progress, and decide whether to change what you're doing?"}
+    ]
+  },
+  {
+    "id": "kaizen", "name": "Kaizen", "origin": "Japan", "kind": "Continuous improvement", "base": 2,
+    "description": "Improve an existing process through small changes, checking their effects and retaining what works. Personal use adapts a management practice.",
+    "source": "https://www.lean.org/lexicon-terms/kaizen/",
+    "limitation": "Incremental improvement alone may not address a goal that requires a major change of direction.",
+    "weights": {"habits": 5, "gentle": 4, "action": 2, "learning": 2},
+    "steps": [
+      {"key": "baseline", "title": "Current process", "prompt": "Think of something you do regularly that could work better. How does it go today, and where does it usually get stuck?"},
+      {"key": "improvement", "title": "Small improvement", "prompt": "What's one small change that could make that sticking point easier, without needing extra time you don't have?"},
+      {"key": "trial", "title": "Run a trial", "prompt": "When will you try it, and for how long? What will you look out for to tell whether it's helping?"},
+      {"key": "standard", "title": "Keep what works", "prompt": "What would convince you to keep the change for good? And if it doesn't help, what will you do instead?"},
+      {"key": "next_cycle", "title": "Next improvement cycle", "prompt": "When will you look back and pick the next small thing to improve?"}
+    ]
+  },
+  {
+    "id": "gtd", "name": "Getting Things Done (GTD)", "origin": "United States", "kind": "Execution system", "base": 1,
+    "description": "Capture commitments, clarify outcomes and next actions, organize reminders, reflect regularly and engage with the work.",
+    "source": "https://gettingthingsdone.com/what-is-gtd/",
+    "limitation": "Organizing commitments does not itself decide which life goals matter; keep the system proportionate.",
+    "weights": {"overload": 6, "action": 4, "structure": 2},
+    "steps": [
+      {"key": "capture", "title": "Capture", "prompt": "Let's empty your head first. What unfinished tasks, ideas or promises are connected to this goal? List them without sorting."},
+      {"key": "clarify", "title": "Clarify", "prompt": "What does 'done' look like for the main project? What's the very next thing you can physically do? Which items aren't really tasks at all?"},
+      {"key": "organize", "title": "Organize", "prompt": "Where will you keep your to-do list, your fixed-date items, things you're waiting on, and useful notes?"},
+      {"key": "reflect", "title": "Reflect", "prompt": "When will you look over your lists each week so you can trust them?"},
+      {"key": "engage", "title": "Engage", "prompt": "Given where you are, and how much time and energy you have, which next action will you do first?"}
+    ]
+  },
+  {
+    "id": "grow", "name": "GROW", "origin": "United Kingdom", "kind": "Coaching framework", "base": 2,
+    "description": "Explore Goal, Reality, Options and Will to clarify the desired change and choose a concrete way forward.",
+    "source": "https://www.performanceconsultants.com/resources/the-grow-model/",
+    "limitation": "Good questions need honest answers and a real commitment to follow-through.",
+    "weights": {"coaching": 6, "uncertainty": 3, "clarity": 3, "reflection": 2},
+    "steps": [
+      {"key": "goal", "title": "Goal", "prompt": "What would you like to walk away with from this conversation?"},
+      {"key": "reality", "title": "Reality", "prompt": "What's happening right now? What have you already tried, and what's helping or holding you back?"},
+      {"key": "options", "title": "Options", "prompt": "What are a few ways you could move forward? Include at least one smaller or easier option."},
+      {"key": "will", "title": "Will / way forward", "prompt": "Which option will you commit to, by when, and how will you know you've followed through?"}
+    ]
+  },
+  {
+    "id": "ikigai", "name": "Ikigai-informed reflection", "origin": "Japan", "kind": "Ganbaru practical adaptation", "base": 0,
+    "description": "Explore what gives life meaning and joy, then choose a related goal. This is an original practical adaptation, not a canonical four-circle career formula.",
+    "source": "https://www.japan.go.jp/kizuna/2022/03/ikigai_japanese_secret_to_a_joyful_life.html",
+    "limitation": "Purpose reflection needs an additional action plan; meaning need not be profitable or career-related.",
+    "weights": {"purpose": 7, "reflection": 3, "uncertainty": 2},
+    "steps": [
+      {"key": "meaning", "title": "Meaning and joy", "prompt": "Think about everyday moments, activities or people that make life feel worthwhile. What comes to mind?"},
+      {"key": "patterns", "title": "Patterns", "prompt": "Looking at those, what do they have in common? Which values or themes keep showing up?"},
+      {"key": "space", "title": "Make room", "prompt": "Which of these would you like more room for in your life, alongside what you already have to do?"},
+      {"key": "experiment", "title": "Small experiment", "prompt": "What small, low-risk experiment could you try to explore that direction? It doesn't need to be a big life decision."},
+      {"key": "reflection", "title": "Reflect on fit", "prompt": "When will you pause to ask whether it brought you meaning or joy, and decide what to keep doing?"}
+    ]
+  },
+  {
+    "id": "woop", "name": "WOOP", "origin": "German-US psychology", "kind": "Obstacle-aware planning", "base": 2,
+    "description": "Work in order through Wish, Outcome, Obstacle and Plan, linking the main internal obstacle to a specific if-then response.",
+    "source": "https://woopmylife.org/en/practice",
+    "limitation": "It needs a feasible wish and an honest internal obstacle; external barriers may require separate support.",
+    "weights": {"action": 5, "habits": 3, "clarity": 2, "outcome-stress": 1},
+    "steps": [
+      {"key": "wish", "title": "Wish", "prompt": "What's something you'd really like to achieve in your timeframe? Choose something that stretches you but is still possible."},
+      {"key": "outcome", "title": "Outcome", "prompt": "Picture it already done. What's the best thing about that? Take a moment to imagine it, then describe it."},
+      {"key": "obstacle", "title": "Obstacle", "prompt": "What's the main thing inside you, such as a habit, feeling or belief, that could stop you? When does it usually show up?"},
+      {"key": "plan", "title": "Plan", "prompt": "Let's make a plan for that moment. Finish this sentence: 'If [that obstacle shows up], then I will [one thing I can do].'"}
+    ]
+  },
+  {
+    "id": "knowing-acting", "name": "Unity of Knowing and Acting", "origin": "China - Wang Yangming", "kind": "Ganbaru practical adaptation", "base": 0,
+    "description": "Reflect on the connection between understanding and conduct. Wang Yangming's teaching concerns moral knowledge; these goal exercises are our adaptation.",
+    "source": "https://plato.stanford.edu/entries/wang-yangming/",
+    "limitation": "This is not a validated productivity protocol, nor simply an instruction to act before thinking.",
+    "weights": {"learning": 6, "action": 3, "reflection": 3, "purpose": 1},
+    "steps": [
+      {"key": "principle", "title": "Understanding", "prompt": "What value or insight matters most for this goal? What would living by it look like day to day?"},
+      {"key": "gap", "title": "Conduct", "prompt": "Where does what you do today not quite match that value? Give one real example, gently, without judging yourself."},
+      {"key": "practice", "title": "Practice", "prompt": "What's one small action this week that would put that value into practice?"},
+      {"key": "reflect", "title": "Learn from action", "prompt": "Afterwards, how will you look back on what happened and adjust what you understand and what you do next?"}
+    ]
+  },
+  {
+    "id": "wu-wei", "name": "Wu Wei", "origin": "China - Daoist traditions", "kind": "Ganbaru practical adaptation", "base": 0,
+    "description": "Consider appropriate, unforced action and reconsider excessive striving. The exercises adapt a philosophical ideal rather than reproduce a traditional goal system.",
+    "source": "https://plato.stanford.edu/entries/laozi/",
+    "limitation": "Non-forcing does not mean passivity, ignoring responsibilities, or assuming every difficult goal is wrong.",
+    "weights": {"gentle": 6, "outcome-stress": 4, "reflection": 2},
+    "steps": [
+      {"key": "forcing", "title": "Notice forcing", "prompt": "Where do you feel you're pushing hard but getting little back? Which responsibilities still need your care?"},
+      {"key": "conditions", "title": "Read conditions", "prompt": "When do things feel easier for you? Think about timing, surroundings or natural strengths."},
+      {"key": "simplify", "title": "Simplify", "prompt": "What could you let go of, while keeping what really matters?"},
+      {"key": "action", "title": "Appropriate action", "prompt": "What gentle step fits how things are right now, and when will you check how it's going?"}
+    ]
+  },
+  {
+    "id": "karma-yoga", "name": "Karma Yoga", "origin": "India - Hindu traditions", "kind": "Ganbaru practical adaptation", "base": 0,
+    "description": "Reflect on responsible action without making reward the sole motive. These planning exercises are a modern adaptation of a spiritual teaching.",
+    "source": "https://www.holy-bhagavad-gita.org/chapter/2/verse/47/",
+    "limitation": "Non-attachment does not mean neglecting consequences or tolerating harmful conditions; spiritual beliefs are optional here.",
+    "weights": {"outcome-stress": 6, "purpose": 3, "action": 2, "reflection": 2},
+    "steps": [
+      {"key": "responsibility", "title": "Meaningful responsibility", "prompt": "What work or responsibility feels worth doing well, even if no one praises or rewards you for it?"},
+      {"key": "control", "title": "Agency and uncertainty", "prompt": "Which parts are fully in your hands, and which depend on other people or circumstances?"},
+      {"key": "commitment", "title": "Commit to action", "prompt": "What regular action will you commit to, while caring about how it affects you and others?"},
+      {"key": "feedback", "title": "Use feedback", "prompt": "How will you learn from how things turn out, without treating success or failure as a judgement of your worth?"}
+    ]
+  },
+  {
+    "id": "harada", "name": "Harada Method", "origin": "Japan - Takashi Harada", "kind": "Structured self-development", "base": 1,
+    "description": "Connect a major goal to purpose, self-analysis, supporting areas, routines and daily reflection. Includes an original exercise inspired by Open Window 64.",
+    "source": "https://harada-educate.jp/ow64/",
+    "limitation": "Detailed planning takes effort. This is an introductory adaptation, not official Harada training or a reproduced worksheet.",
+    "weights": {"structure": 6, "habits": 3, "purpose": 2, "learning": 3},
+    "steps": [
+      {"key": "purpose", "title": "Goal and purpose", "prompt": "What's the big goal you want to reach, and by when? How would reaching it help you and the people around you?"},
+      {"key": "self_analysis", "title": "Self-analysis", "prompt": "Let's take a fair, kind look at yourself. What are your strengths and past wins? What weaknesses or obstacles could get in the way?"},
+      {"key": "eight_areas", "title": "Eight supporting areas", "prompt": "Now name up to eight areas that support your goal: skills, habits, health, relationships, or anything else. We'll go one at a time."},
+      {"key": "actions_64", "title": "Open Window 64-inspired map", "prompt": "For each area, list up to eight concrete actions. Go one area at a time, and only add actions you'd really do. It's fine to leave gaps."},
+      {"key": "routines", "title": "Routine checklist", "prompt": "Which few of those actions will become daily or weekly habits? Who, if anyone, could help keep you on track?"},
+      {"key": "journal", "title": "Daily reflection", "prompt": "When will you note down what you did, what you learned, and what you'll adjust next?"}
+    ]
+  },
+  {
+    "id": "toyota-kata", "name": "Toyota Improvement Kata", "origin": "Toyota practice in Japan; codified by Mike Rother", "kind": "Experimental improvement", "base": 1,
+    "description": "Understand the challenge and current condition, establish a near-term target condition, and run experiments to learn through obstacles.",
+    "source": "https://www.lean.org/lexicon-terms/kata/",
+    "limitation": "Requires observing real work and learning from experiments; a target condition is more than a numeric outcome target.",
+    "weights": {"uncertainty": 6, "learning": 5, "team": 2, "action": 2},
+    "steps": [
+      {"key": "challenge", "title": "Direction or challenge", "prompt": "What longer-term challenge is pointing you in a direction? Where do you ultimately want to get to?"},
+      {"key": "current", "title": "Current condition", "prompt": "What actually happens today? Describe what you've seen and measured, not what you assume."},
+      {"key": "target", "title": "Next target condition", "prompt": "What should things look like at your next checkpoint, and when is that? Describe something you'll be able to see."},
+      {"key": "obstacle", "title": "One obstacle", "prompt": "Which obstacle will you look at first? What don't you understand about it yet?"},
+      {"key": "experiment", "title": "Next experiment", "prompt": "Let's plan small experiments to learn about that obstacle. We'll go one at a time."},
+      {"key": "learning", "title": "Learning cycle", "prompt": "When will you review what happened and choose your next experiment? Will anyone coach you, or will you do it alone?"}
+    ]
+  },
+  {
+    "id": "hoshin-kanri", "name": "Hoshin Kanri", "origin": "Japan with Western management influences", "kind": "Strategy alignment", "base": 0,
+    "description": "Connect strategic direction, breakthrough priorities, shorter-term objectives and local actions through two-way discussion and review.",
+    "source": "https://www.lean.org/lexicon-terms/hoshin-kanri/",
+    "limitation": "Usually excessive for a simple individual goal. Solo use is a Ganbaru adaptation; team plans require stakeholder participation.",
+    "weights": {"organization": 7, "team": 5, "structure": 2},
+    "steps": [
+      {"key": "direction", "title": "Strategic direction", "prompt": "Looking three to five years ahead, where do you, your team or organisation want to be? Describe the big direction in a sentence or two."},
+      {"key": "breakthrough", "title": "Breakthrough priority", "prompt": "What's the one big change that would move you furthest toward that, something that won't happen just by carrying on as usual?"},
+      {"key": "annual", "title": "Shorter-term objective", "prompt": "What would good progress on that look like by the end of this year, or your chosen period? Try to make it something you can see or count."},
+      {"key": "catchball", "title": "Two-way alignment", "prompt": "Who should you talk this through with before committing, such as a manager, teammates or family? What would you ask each of them? Note ideas only, not agreements that haven't happened yet."},
+      {"key": "deployment", "title": "Actions and ownership", "prompt": "Now let's turn this into concrete actions. We'll go one action at a time."},
+      {"key": "review", "title": "Review and adapt", "prompt": "How often will you check how the actions are going, and when will you step back and ask whether the direction still makes sense?"}
+    ]
+  }
+]
